@@ -1,6 +1,6 @@
 {
   "name": "rickhc3",
-  "version": "4.0.0",
+  "version": "4.0.2",
   "description": "A personal card for Ricardo Arantes (@rickhc3)",
   "main": "card.js",
   "bin": {

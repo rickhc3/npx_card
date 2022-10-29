@@ -45,7 +45,7 @@ const questions = [
                         text: ' Downloading Resume',
                         spinner: cliSpinners.material,
                     }).start();
-                    let pipe = request('https://github.com/rickhc3/npx_card/raw/master/resume/Profile.pdf').pipe(fs.createWriteStream('./rickhc3-resume.pdf'));
+                    let pipe = request('https://github.com/rickhc3/rickhc3/raw/main/resume/Profile.pdf').pipe(fs.createWriteStream('./rickhc3-resume.pdf'));
                     pipe.on("finish", function () {
                         let downloadPath = path.join(process.cwd(), 'rickhc3-resume.pdf')
                         console.log(`\nResume Downloaded at ${downloadPath} \n`);
