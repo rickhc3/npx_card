@@ -30,7 +30,7 @@ const questions = [
                 }
             },
             {
-                name: "Access my LinkedIn",
+                name: `Access my ${chalk.blueBright.bold("LinkedIn")}.`,
                 value: () => {
                     open("https://www.linkedin.com/in/ricardo-arantes/");
                     console.log("\nDone, see you soon at LinkedIn.\n");
@@ -44,9 +44,9 @@ const questions = [
                         text: ' Downloading Resume',
                         spinner: cliSpinners.material,
                     }).start();
-                    let pipe = request('https://anmolsingh.me/api/resume').pipe(fs.createWriteStream('./anmol-resume.html'));
+                    let pipe = request('https://github.com/rickhc3/npx_card/raw/master/resume/Profile.pdf').pipe(fs.createWriteStream('./rickhc3-resume.pdf'));
                     pipe.on("finish", function () {
-                        let downloadPath = path.join(process.cwd(), 'anmol-resume.html')
+                        let downloadPath = path.join(process.cwd(), 'rickhc3-resume.pdf')
                         console.log(`\nResume Downloaded at ${downloadPath} \n`);
                         open(downloadPath)
                         loader.stop();
@@ -94,12 +94,12 @@ const me = boxen(
     [
         `${data.name}`,
         ``,
-        `${data.labelWork}  ${data.work}`,
+        /* `${data.labelWork}  ${data.work}`, */
         ``,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelLinkedIn}  ${data.linkedin}`,
-        `${data.labelWeb}  ${data.web}`,
+        /* `${data.labelWeb}  ${data.web}`, */
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
