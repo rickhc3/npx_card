@@ -1,14 +1,14 @@
 {
   "name": "anmol",
   "version": "4.0.0",
-  "description": "A personal card for Anmol Pratap Singh (@anmol098)",
+  "description": "A personal card for Ricardo Arantes (@rickhc3)",
   "main": "card.js",
   "bin": {
     "anmol": "./card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol098/npx_card.git"
+    "url": "git+https://github.com/rickhc3/npx_card.git"
   },
   "scripts": {
     "test": "node card.js",

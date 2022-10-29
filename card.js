@@ -25,8 +25,15 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:hi@anmolsingh.me");
+                    open("mailto:rickhc3@gmail.com");
                     console.log("\nDone, see you soon at inbox.\n");
+                }
+            },
+            {
+                name: "Access my LinkedIn",
+                value: () => {
+                    open("https://www.linkedin.com/in/ricardo-arantes/");
+                    console.log("\nDone, see you soon at LinkedIn.\n");
                 }
             },
             {
@@ -46,13 +53,13 @@ const questions = [
                     });
                 }
             },
-            {
+            /* {
                 name: `Schedule a ${chalk.redBright.bold("Meeting")}?`,
                 value: () => {
                     open('https://calendly.com/anmol098/30min');
                     console.log("\n See you at the meeting \n");
                 }
-            },
+            }, */
             {
                 name: "Just quit.",
                 value: () => {
@@ -64,16 +71,16 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("             Anmol Pratap Singh"),
-    handle: chalk.white("@anmol098"),
+    name: chalk.bold.green("             Ricardo Arantes"),
+    handle: chalk.white("@rickhc3"),/* 
     work: `${chalk.white("Lead Software Engineer at")} ${chalk
         .hex("#2b82b2")
-        .bold("FootLoose Labs")}`,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("misteranmol"),
-    github: chalk.gray("https://github.com/") + chalk.green("anmol098"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("anmol098"),
-    web: chalk.cyan("https://anmolsingh.me"),
-    npx: chalk.red("npx") + " " + chalk.white("anmol"),
+        .bold("FootLoose Labs")}`, */
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("rickhc3"),
+    github: chalk.gray("https://github.com/") + chalk.green("rickhc3"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("ricardo-arantes"),
+    /* web: chalk.cyan("https://anmolsingh.me"), */
+    npx: chalk.red("npx") + " " + chalk.white("rickhc3"),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),

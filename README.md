@@ -3,17 +3,13 @@ This my NPX card unique style to connect with me directly via console or termina
 
 👇 just hit 
 ```bash
-npx anmol
+npx rickhc3
 ```
 And get to know me in unique style.
 
-### I spent a non-trivial amount of effort building and designing this iteration of npx card, and I am proud of it! All I ask of you all is to put a **star** ⭐ on this project and not claim this effort as your own ♥.
+<hr/>
 
-### SCREENSHOT
-
-The final output might look something like this:
-
-![image](https://github.com/anmol098/npx_card/blob/master/demo.gif)
+##### The repo was forked from https://github.com/anmol098/npx_card, so don't forget to ⭐ this repo!
 
 
 <hr/>
