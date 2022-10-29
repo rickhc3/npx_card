@@ -28,6 +28,7 @@ const questions = [
                     open("mailto:rickhc3@gmail.com");
                     console.log("\nDone, see you soon at inbox.\n");
                 }
+
             },
             {
                 name: `Access my ${chalk.blueBright.bold("LinkedIn")}.`,
@@ -96,9 +97,9 @@ const me = boxen(
         ``,
         /* `${data.labelWork}  ${data.work}`, */
         ``,
+        `${data.labelLinkedIn}  ${data.linkedin}`,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
-        `${data.labelLinkedIn}  ${data.linkedin}`,
         /* `${data.labelWeb}  ${data.web}`, */
         ``,
         `${data.labelCard}  ${data.npx}`,
